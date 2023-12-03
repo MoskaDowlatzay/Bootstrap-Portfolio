@@ -3,8 +3,6 @@
 } */
 
 
-
-.
 * h1,
 h2,
 h3,
@@ -18,7 +16,9 @@ p {
 }
 
 
-
+.navbar {
+    background-color: rgb(220, 204, 192);
+}
 
 
 /* Jumbotron  */
@@ -38,7 +38,7 @@ p {
   min-width: 500px;
   max-width: 700px;
   color: black;
-  text-align: center;
+  text-align: end;
   background-color: rgb(255, 255, 255);
 }
 
@@ -122,6 +122,12 @@ p {
 .bg-black {
   background-color: #000000 !important;
 }
+
+.about-mee {
+    --bs-bg-opacity: 1;
+    background-color: rgb(220, 204, 192);
+}
+
 
 
 @media screen and (max-width: 480px) {

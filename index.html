@@ -23,12 +23,10 @@
 
     <title>Portfolio-Bootstrap</title>
   </head>
+
   <body>
     <!-- Navigation bar -->
-    <nav
-      class="bg-dark navbar navbar-expand-lg bg-body-tertiary"
-      data-bs-theme="dark"
-    >
+    <nav class="navbar navbar-expand-lg" data-bs-theme="">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Moska Dowlatzay Portfolio</a>
         <button
@@ -52,7 +50,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Work</a>
+              <a class="nav-link" href="#work-section">Work</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link" href="#">Skills </a>
@@ -73,26 +71,32 @@
         <h1 class="display-5 fw-bold">Moska Dowlatzay Portfolio</h1>
         <p class="col-md-12 fs-4">Junior Web Developer</p>
       </div>
-      <img class="hero-image" src="../Bootstrap-Portfolio/images/avatar.jpg" width="1000px" height="1000px">
+      <img
+        class="hero-image"
+        src="../Bootstrap-Portfolio/images/avatar.jpg"
+        width="1000px"
+        height="1000px"
+      />
     </div>
 
-
     <!-- Work section -->
-    <div class="card mb-3">
+    <div class="card mb-3" id="work-section">
       <img src="https://placehold.co/600x100" class="card-img-top" alt="..." />
       <div class="card-body">
-        <h5 class="card-title">Moska Dowlatzay's Portfolio </h5>
+        <h5 class="card-title">Moska Dowlatzay's Portfolio</h5>
         <p class="card-text">
-            Module 2 homework I recreated a portfolio which was to replicate edx's version and make it my own.
+          Module 2 homework I recreated a portfolio which was to replicate edx's
+          version and make it my own.
         </p>
         <p class="card-text">
           <small class="text-body-secondary">Last updated 3 mins ago</small>
         </p>
         <button class="btn btn-primary btn-lg" type="button">View</button>
-
       </div>
     </div>
+
     <div class="card">
+      <img src="https://placehold.co/600x100" class="card-img-top" alt="..." />
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">
@@ -102,11 +106,37 @@
         <p class="card-text">
           <small class="text-body-secondary">Last updated 3 mins ago</small>
         </p>
-        <button class="btn btn-primary btn-lg" href="https://moskadowlatzay.github.io/Moska-Dowlatzay-Portfolio/" type="button">Click</button>
-
+        <button
+          class="btn btn-primary btn-lg"
+          href="https://moskadowlatzay.github.io/Moska-Dowlatzay-Portfolio/"
+          type="button"
+        >
+          Click
+        </button>
       </div>
-      <img src="..." class="card-img-bottom" alt="..." />
     </div>
+
+    <div class="card">
+      <img src="https://placehold.co/600x100" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          This is a wider card with supporting text below as a natural lead-in
+          to additional content. This content is a little bit longer.
+        </p>
+        <p class="card-text">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </p>
+        <button
+          class="btn btn-primary btn-lg"
+          href="https://moskadowlatzay.github.io/Moska-Dowlatzay-Portfolio/"
+          type="button"
+        >
+          Click
+        </button>
+      </div>
+    </div>
+
     <!-- Skills section -->
     <div class="container-fluid content">
       <h2 class="sectionHeading">My Skills</h2>
@@ -175,7 +205,7 @@
 
     <!-- About Me section -->
     <section>
-      <div class="container bg-secondary">
+      <div class="container about-mee">
         <div class="row align-items-center">
           <div class="col-lg-5 order-lg-2">
             <div class="p-3"></div>
@@ -196,10 +226,11 @@
               >
             </div>
             <img
-            class="img-fluid"
-            src="../Bootstrap-Portfolio/images/linkedinpic.jpeg"
-            alt=""
-          />
+              class="img-fluid"
+              src="../Bootstrap-Portfolio/images/linkedinpic.jpeg"
+              class="rounded"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -253,35 +284,37 @@
 
     <!-- Footer section -->
     <footer class="footer bg-light">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 h-100 text-center mx-auto">
-              <ul class="list-inline mb-0">
-                <li class="list-inline-item mr-3">
-                  <a href="#">
-                    <i class="fab fa-linkedin fa-3x fa-fw"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item mr-3">
-                  <a href="#">
-                    <i class="fab fa-twitter-square fa-3x fa-fw"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-github fa-3x fa-fw"></i>
-                  </a>
-                </li>
-              </ul>
-              <br>
-              <p class="text-muted small mb-4 mb-lg-0">&copy; Module 3. Coded by Moska Dowlatzay!</p>
-              <br>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 h-100 text-center mx-auto">
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item mr-3">
+                <a href="#">
+                  <i class="fab fa-linkedin fa-3x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mr-3">
+                <a href="#">
+                  <i class="fab fa-twitter-square fa-3x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github fa-3x fa-fw"></i>
+                </a>
+              </li>
+            </ul>
+            <br />
+            <p class="text-muted small mb-4 mb-lg-0">
+              &copy; Module 3. Coded by Moska Dowlatzay!
+            </p>
+            <br />
           </div>
         </div>
-        <!-- /.container -->
-      </footer>
-  
+      </div>
+      <!-- /.container -->
+    </footer>
+
     <!-- End footer section -->
   </body>
 </html>
