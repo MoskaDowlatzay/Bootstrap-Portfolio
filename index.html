@@ -55,7 +55,7 @@
               <a class="nav-link" href="#">Work</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="#"> Skills </a>
+              <a class="nav-link" href="#">Skills </a>
             </li>
           </ul>
 
@@ -68,30 +68,45 @@
     </nav>
 
     <!-- Hero section/ jumbotron -->
-    <div class="p-5 mb-4 bg-body-tertiary rounded-3 rockBackground">
+    <div class="p-5 mb-4 rounded-3 hero">
       <div class="container-fluid py-5 jumboCopy">
         <h1 class="display-5 fw-bold">Moska Dowlatzay Portfolio</h1>
         <p class="col-md-12 fs-4">Junior Web Developer</p>
-        <button class="btn btn-primary btn-lg" type="button"></button>
       </div>
+      <img class="hero-image" src="../Bootstrap-Portfolio/images/avatar.jpg" width="1000px" height="1000px">
     </div>
+
+
     <!-- Work section -->
     <div class="card mb-3">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-  </div>
-</div>
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-  </div>
-  <img src="..." class="card-img-bottom" alt="...">
-</div>
+      <img src="https://placehold.co/600x100" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Moska Dowlatzay's Portfolio </h5>
+        <p class="card-text">
+            Module 2 homework I recreated a portfolio which was to replicate edx's version and make it my own.
+        </p>
+        <p class="card-text">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </p>
+        <button class="btn btn-primary btn-lg" type="button">View</button>
+
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          This is a wider card with supporting text below as a natural lead-in
+          to additional content. This content is a little bit longer.
+        </p>
+        <p class="card-text">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </p>
+        <button class="btn btn-primary btn-lg" href="https://moskadowlatzay.github.io/Moska-Dowlatzay-Portfolio/" type="button">Click</button>
+
+      </div>
+      <img src="..." class="card-img-bottom" alt="..." />
+    </div>
     <!-- Skills section -->
     <div class="container-fluid content">
       <h2 class="sectionHeading">My Skills</h2>
@@ -167,12 +182,6 @@
           </div>
           <div class="col-lg-8 order-lg-1 text-white">
             <div class="p-5">
-              <img
-                class="img-fluid"
-                src="../Bootstrap-Portfolio/images/linkedinpic.jpeg"
-                alt=""
-              />
-
               <h2 class="display-4">About me!</h2>
               <p>
                 My name is Moska Dowlatzay, I'm 31 years old and I'm a mum to
@@ -183,15 +192,20 @@
               </p>
               <a href="#" class="btn btn-lg btn-outline-light">
                 <i class="fas fa-download"></i>
-                Download my Resume!</a
+                Back to top!</a
               >
             </div>
+            <img
+            class="img-fluid"
+            src="../Bootstrap-Portfolio/images/linkedinpic.jpeg"
+            alt=""
+          />
           </div>
         </div>
       </div>
     </section>
-    <br>
-    <br>
+    <br />
+    <br />
     <!-- Contact-->
     <section class="contact-section" id="contact">
       <div class="container">
@@ -202,9 +216,7 @@
                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                 <h4 class="text-uppercase m-0">Address</h4>
                 <hr class="my-4" />
-                <div class="small text-black-50">
-                  Camden, London, UK
-                </div>
+                <div class="small text-black-50">Camden, London, UK</div>
               </div>
             </div>
           </div>
@@ -231,16 +243,45 @@
             </div>
           </div>
         </div>
-        <div class="social d-flex justify-content-center">
+        <!-- <div class="social d-flex justify-content-center">
           <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-          <a class="mx-2" href="#!"></a><i class="fab fa-facebook-f"></i></a>
+          <a class="mx-2" href="#!"></a><i class="fab fa-facebook-f"></i>
           <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
-        </div>
+        </div> -->
       </div>
     </section>
 
     <!-- Footer section -->
-
+    <footer class="footer bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 h-100 text-center mx-auto">
+              <ul class="list-inline mb-0">
+                <li class="list-inline-item mr-3">
+                  <a href="#">
+                    <i class="fab fa-linkedin fa-3x fa-fw"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item mr-3">
+                  <a href="#">
+                    <i class="fab fa-twitter-square fa-3x fa-fw"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-github fa-3x fa-fw"></i>
+                  </a>
+                </li>
+              </ul>
+              <br>
+              <p class="text-muted small mb-4 mb-lg-0">&copy; Module 3. Coded by Moska Dowlatzay!</p>
+              <br>
+            </div>
+          </div>
+        </div>
+        <!-- /.container -->
+      </footer>
+  
     <!-- End footer section -->
   </body>
 </html>
