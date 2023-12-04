@@ -2,7 +2,6 @@
 
 } */
 
-
 * h1,
 h2,
 h3,
@@ -15,11 +14,9 @@ p {
   font-family: "Jura", sans-serif;
 }
 
-
 .navbar {
-    background-color: rgb(220, 204, 192);
+  background-color: rgb(220, 204, 192);
 }
-
 
 /* Jumbotron  */
 
@@ -76,7 +73,9 @@ p {
 .img-fluid {
   max-width: 100%;
   height: 300px;
-  
+  mix-blend-mode: multiply;
+  align-items: end;
+  float: inline-end;
 }
 
 /* contact section */
@@ -97,7 +96,7 @@ p {
   letter-spacing: 0.15rem;
 }
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: rgb(190, 169, 153);
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -124,15 +123,15 @@ p {
 }
 
 .about-mee {
-    --bs-bg-opacity: 1;
-    background-color: rgb(220, 204, 192);
+  --bs-bg-opacity: 1;
+  background-color: rgb(220, 204, 192);
 }
 
 
 
 @media screen and (max-width: 480px) {
-    .hero-image {
-        height: 100px;
-        width: 100px;
-    }
+  .hero-image {
+    height: 100px;
+    width: 100px;
+  }
 }
