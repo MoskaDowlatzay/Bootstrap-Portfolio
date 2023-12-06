@@ -1,274 +1,350 @@
 <!DOCTYPE html>
 <html lang="en-gb">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
+    <title>Portfolio-Bootstrap</title>
+  </head>
 
-  <title>Portfolio-Bootstrap</title>
-</head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg" data-bs-theme="">
+      <div class="container-fluid">
+        <a class="navbar-brand">Moska Dowlatzay Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#about-mee"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work-section">Work</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#my-skills">Skills </a>
+            </li>
+          </ul>
 
-<body>
-  <!-- Navigation bar -->
-  <nav class="navbar navbar-expand-lg" data-bs-theme="">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Moska Dowlatzay Portfolio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/MoskaDowlatzay/MoskaDowlatzay">About me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#work-section">Work</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="#">Skills </a>
-          </li>
-        </ul>
-
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero section/ jumbotron -->
-  <div class="p-5 mb-4 rounded-3 hero">
-    <div class="container-fluid py-5 jumboCopy">
-      <h1 class="display-5 fw-bold">Moska Dowlatzay Portfolio</h1>
-      <p class="col-md-12 fs-4">Junior Web Developer</p>
-    </div>
-    <img class="hero-image" src="../Bootstrap-Portfolio/images/avatar.jpg" width="1000px" height="1000px" />
-  </div>
-
-  <!-- Work section -->
-  <div class="card mb-0" id="work-section">
-    <img src="https://placehold.co/600x100" class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title">Moska Dowlatzay's Portfolio</h5>
-      <p class="card-text">
-        Module 2 homework I recreated a portfolio which was to replicate edx's
-        version and make it my own.
-      </p>
-      <p class="card-text">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </p>
-      <button class="btn btn-primary btn-lg" type="button">View</button>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="https://placehold.co/600x100" class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">
-        This is a wider card with supporting text below as a natural lead-in
-        to additional content. This content is a little bit longer.
-      </p>
-      <p class="card-text">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </p>
-      <button class="btn btn-primary btn-lg" href="https://moskadowlatzay.github.io/Moska-Dowlatzay-Portfolio/"
-        type="button">
-        Click
-      </button>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="https://placehold.co/600x100" class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">
-        This is a wider card with supporting text below as a natural lead-in
-        to additional content. This content is a little bit longer.
-      </p>
-      <p class="card-text">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </p>
-      <button class="btn btn-primary btn-lg" href="https://moskadowlatzay.github.io/Moska-Dowlatzay-Portfolio/"
-        type="button">
-        Click
-      </button>
-    </div>
-  </div>
-
-  <!-- Skills section -->
-  <div class="container-fluid content">
-    <h2 class="sectionHeading">My Skills</h2>
-    <div class="row showsNear">
-      <!-- Card 1 -->
-      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-        <div class="card">
-          <img src="images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">HTML</h5>
-            <p class="card-text">
-              Come see Slipknot unlease their new album "We Are Not Your Kind"
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn" type="submit"></button>
+          </form>
         </div>
       </div>
-      <!-- End card 1 -->
+    </nav>
 
-      <!-- Card 2 -->
-      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-        <div class="card">
-          <img src="images/css image icon.avif" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">CSS</h5>
-            <p class="card-text">
-              Metallica finally returns to the big stage in Chicago Illinois
-            </p>
-            <a href="#" class="btn btn-primary">Buy Tickets</a>
-          </div>
-        </div>
+    <!-- Hero section/ jumbotron -->
+    <div class="p-5 mb-4 rounded-3 hero">
+      <div class="container-fluid py-5 jumboCopy">
+        <h1 class="display-5 fw-bold">Moska Dowlatzay Portfolio</h1>
+        <p class="col-md-12 fs-4">Web Developer</p>
       </div>
-      <!-- End card 2 -->
+      <img
+        class="hero-image"
+        src="../Bootstrap-Portfolio/images/avatar.jpg"
+        width="1000px"
+        height="1000px"
+      />
+    </div>
 
-      <!-- Card 3 -->
-      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-        <div class="card">
-          <img src="images/markus-winkler-ZDwh_sxsX2g-unsplash.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">GITHUB</h5>
-            <p class="card-text">
-              The Red Hot Chili Peppers take the stage at the Honda Center
-            </p>
-            <a href="#" class="btn btn-primary">Buy Tickets</a>
-          </div>
-        </div>
+    <!-- Work section -->
+    <div class="card mb-0" id="work-section">
+      <img src="https://placehold.co/600x100" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Moska Dowlatzay's Portfolio</h5>
+        <p class="card-text">
+          Module 2 homework I recreated a portfolio which was to replicate edx's
+          version and make it my own.
+        </p>
+        <p class="card-text">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </p>
+        <button
+          class="btn btn btn-lg"
+          href="https://moskadowlatzay.github.io/Moska-Dowlatzay-Portfolio/"
+          type="button"
+          style="
+            color: rgb(181, 180, 155);
+            background-color: rgb(220, 204, 192);
+          "
+        >
+          View
+        </button>
       </div>
     </div>
-  </div>
 
-  <!-- End cards -->
-
-  <!-- End work section -->
-
-  <!-- About Me section -->
-  <section>
-    <div class="container about-mee">
-      <div class="row align-items-center">
-        <div class="col-lg-5 order-lg-2">
-          <div class="p-3"></div>
-        </div>
-        <div class="col-lg-12 order-lg-1 text-white">
-          <div class="p-5">
-            <h2 class="display-4">About me!</h2>
-            <p>
-              My name is Moska Dowlatzay, I'm 31 years old and I'm a mum to
-              four beautiful girls, I live in London and I love to travel and
-              read. It is one of my biggest goals to become a front-end web
-              developer and I am currently taking part in the edX front-end
-              web development bootcamp, so far I am really enjoying it and I am learning so much and it continues to shock me in how much goes into building web pages, I love playing around with code, IT'S SO MUCH FUN!
-            </p>
-            <a href="#" class="btn btn-lg btn-outline-light">
-              <i class="fas fa-download"></i>
-              Back to top!</a>
-          </div>
-          <img class="img-fluid"
-            src="../Bootstrap-Portfolio/images/muslim-woman-in-hijab-uses-a-laptop-and-speaks-on-the-phone-minimalist-liner-illustration-arab-business-woman-working-on-a-computer-at-home-or-office-education-or-office-work-concept-vector.jpg "
-            alt="">
-        </div>
+    <div class="card">
+      <img
+        src="https://placehold.co/600x100"
+        class="card-img-top"
+        alt="placeholder"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          This is a wider card with supporting text below as a natural lead-in
+          to additional content. This content is a little bit longer.
+        </p>
+        <p class="card-text">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </p>
+        <button
+          class="btn btn btn-lg"
+          href="https://moskadowlatzay.github.io/Moska-Dowlatzay-Portfolio/"
+          type="button"
+          style="
+            color: rgb(181, 180, 155);
+            background-color: rgb(220, 204, 192);
+          "
+        >
+          Click
+        </button>
       </div>
     </div>
-  </section>
-  <br />
-  <br />
-  <!-- Contact-->
-  <section class="contact-section" id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Address</h4>
-              <hr class="my-4" />
-              <div class="small text-black-50">Camden, London, UK</div>
+
+    <div class="card">
+      <img src="https://placehold.co/600x100" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          This is a wider card with supporting text below as a natural lead-in
+          to additional content. This content is a little bit longer.
+        </p>
+        <p class="card-text">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </p>
+        <button
+          class="btn btn btn-lg"
+          href="https://moskadowlatzay.github.io/Moska-Dowlatzay-Portfolio/"
+          type="button"
+          style="
+            color: rgb(181, 180, 155);
+            background-color: rgb(220, 204, 192);
+          "
+        >
+          Click
+        </button>
+      </div>
+    </div>
+
+    <!-- Skills section -->
+    <div class="container-fluid content" id="my-skills">
+      <h2 class="sectionHeading">My Skills</h2>
+      <div class="row showsNear">
+        <!-- Card 1 -->
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="card">
+            <img
+              src="images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">HTML</h5>
+              <p class="card-text">
+                Here are some examples of my html in GITHUB press enter below to view!
+              </p>
+              </p>
+              <a
+                href="https://github.com/MoskaDowlatzay/Moska-Dowlatzay-Portfolio/blob/main/index.html"
+                class="btn btn"
+                style="
+                  color: rgb(181, 180, 155);
+                  background-color: rgb(220, 204, 192);
+                "
+                >Enter</a
+              >
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-envelope text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Email</h4>
-              <hr class="my-4" />
-              <div class="small text-black-50">
-                <a href="#!">MoskaDowlatzay@hotmail.com</a>
+        <!-- End card 1 -->
+
+        <!-- Card 2 -->
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="card">
+            <img
+              src="images/css image icon.avif"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">CSS</h5>
+              <p class="card-text">
+                Here are some great CSS examples of the skills I have gained in my current bootcamp.
+              </p>
+              <a
+                href="https://github.com/MoskaDowlatzay/Moska-Dowlatzay-Portfolio/blob/main/css/style.css"
+                class="btn btn"
+                style="
+                  color: rgb(181, 180, 155);
+                  background-color: rgb(220, 204, 192);
+                "
+                >Enter</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- End card 2 -->
+
+        <!-- Card 3 -->
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="card">
+            <img
+              src="images/markus-winkler-ZDwh_sxsX2g-unsplash.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">GITHUB</h5>
+              <p class="card-text">
+                Here are some examples of my github repositories.
+              </p>
+              <a
+                href="https://github.com/MoskaDowlatzay"
+                class="btn btn"
+                style="
+                  color: rgb(181, 180, 155);
+                  background-color: rgb(220, 204, 192);
+                "
+                >Enter</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End cards -->
+
+    <!-- End work section -->
+
+    <!-- About Me section -->
+    <section>
+      <div class="container about-mee" id="about-mee">
+        <div class="row align-items-center">
+          <div class="col-lg-5 order-lg-2">
+            <div class="p-3"></div>
+          </div>
+          <div class="col-lg-12 order-lg-1 text-white">
+            <div class="p-5">
+              <h2 class="display-4">About me!</h2>
+              <p>
+                My name is Moska Dowlatzay, I'm 31 years old and I'm a mum to
+                four beautiful girls, I live in London and I love to travel and
+                read. It is one of my biggest goals to become a front-end web
+                developer and I am currently taking part in the edX front-end
+                web development bootcamp, so far I am really enjoying it and I
+                am learning so much and it continues to shock me in how much
+                goes into building web pages, I love playing around with code,
+                IT'S SO MUCH FUN!
+              </p>
+              <a href="#" class="btn btn-lg btn-outline-light">
+                <i class="fas fa-download"></i>
+                Back to top!</a
+              >
+            </div>
+            <img
+              class="img-fluid"
+              src="../Bootstrap-Portfolio/images/muslim-woman-in-hijab-uses-a-laptop-and-speaks-on-the-phone-minimalist-liner-illustration-arab-business-woman-working-on-a-computer-at-home-or-office-education-or-office-work-concept-vector.jpg "
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <br />
+    <!-- Contact-->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Address</h4>
+                <hr class="my-4" />
+                <div class="small text-black-50">Camden, London, UK</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Email</h4>
+                <hr class="my-4" />
+                <div class="small text-black-50">
+                  <a href="#!">MoskaDowlatzay@hotmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Phone</h4>
+                <hr class="my-4" />
+                <div class="small text-black-50">+44 7488702371</div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-mobile-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Phone</h4>
-              <hr class="my-4" />
-              <div class="small text-black-50">+44 7488702371</div>
-            </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+
+    <footer class="footer bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 h-100 text-center mx-auto">
+            <br />
+            <p class="text-muted small mb-4 mb-lg-0">
+              &copy; Module 3. Coded by Moska Dowlatzay!
+            </p>
+            <br />
           </div>
         </div>
       </div>
-      <!-- <div class="social d-flex justify-content-center">
-          <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-          <a class="mx-2" href="#!"></a><i class="fab fa-facebook-f"></i>
-          <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
-        </div> -->
-    </div>
-  </section>
-
-  <!-- Footer section -->
-  <footer class="footer bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 h-100 text-center mx-auto">
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-linkedin fa-3x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-twitter-square fa-3x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-github fa-3x fa-fw"></i>
-              </a>
-            </li>
-          </ul>
-          <br />
-          <p class="text-muted small mb-4 mb-lg-0">
-            &copy; Module 3. Coded by Moska Dowlatzay!
-          </p>
-          <br />
-        </div>
-      </div>
-    </div>
-    <!-- /.container -->
-  </footer>
-
-  <!-- End footer section -->
-</body>
-
+    </footer>
+  </body>
 </html>

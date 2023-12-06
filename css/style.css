@@ -32,7 +32,6 @@ p {
 
 .jumboCopy {
   width: 70%;
-  min-width: 500px;
   max-width: 700px;
   color: black;
   text-align: end;
@@ -125,9 +124,8 @@ p {
 .about-mee {
   --bs-bg-opacity: 1;
   background-color: rgb(220, 204, 192);
+  height: 555px;
 }
-
-
 
 @media screen and (max-width: 480px) {
   .hero-image {
