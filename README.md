@@ -19,5 +19,5 @@ skills section imagery credit goes to:https://www.pexels.com/search/code/
 
 
 ## Moska-Dowlatzay-Portfolio screenshot
-![screenshot of portfolio] 
-(screencapture-file-Users-moskadowlatzay-bootcamp-homework-Bootstrap-Portfolio-index-html-2023-12-06-00_34_47.png)
+![screenshot of portfolio]
+(images/screencapture-file-Users-moskadowlatzay-bootcamp-homework-Bootstrap-Portfolio-index-html-2023-12-06-00_34_47.png)
